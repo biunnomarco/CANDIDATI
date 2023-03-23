@@ -1,0 +1,519 @@
+body{
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+} 
+/* HEADER */
+
+header {
+    height: 60px;
+    min-width: 1200px;
+    background: rgb(20,15,115);
+    background: linear-gradient(197deg, rgba(20,15,115,1) 0%, rgba(9,9,51,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 37px 110px;
+}
+.logo {
+    width: 150px;
+    height: 55px;
+    background-image: url(https://epicode.com/wp-content/uploads/2022/05/footer-logo.svg);
+    background-size: contain;
+}
+.navBar {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.navBar p {
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    display: flex;
+}
+.navBar .material-symbols-outlined {
+    font-size: 18px;
+}
+#candidati {
+    padding: 9px 13px;
+    color: black;
+    font-weight: 600;
+    background-color: cyan;
+    border-radius: 5px;
+    border: none;
+}
+#flag {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-image: url(asset/flag.jpg);
+    background-size: contain;
+    margin: -20px;
+}
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 7.8px 4.5px 0 4.5px;
+    border-color: #FFFFFF transparent transparent transparent;
+    transform: rotate(0deg);
+}
+
+/** MAIN */
+
+/** PRIMA SEZIONE */
+
+.firstStep {
+    width: 100%;
+    background: rgb(20,15,115);
+    background: linear-gradient(197deg, rgba(20,15,115,1) 0%, rgba(9,9,51,1) 100%);
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    
+}
+.firstStepText {
+    max-width: 60%;
+    min-width: 600px;
+    height: 450px;
+    margin-top: 150px;
+}
+.firstStepText h1 {
+    font-size: 3.3em;
+    margin: 0;
+    line-height: 80px;
+}
+.firstStepText p {
+   font-size: 1.3em;
+}
+.firstStepText ul {
+    font-size: 1.3em;
+    list-style: none;
+    padding-left: 10px;
+}
+li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: linear-gradient(46.03deg,#CB2376 14.21%,#FF00D6 83.82%);
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 10px;
+}
+#candidatiOra {
+    color: black;
+    font-size: medium;
+    background-color: cyan;
+    border-radius: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.firstStepImg {
+    margin-top: 100px;
+    height: 600px;
+    background-image: url(asset/epicode-svg-animation-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.hero {
+    object-fit: cover;
+    width: 100%;
+}
+
+/** SECONDA SEZIONE */
+
+.howEnter {
+    width: 100%;
+    background: rgb(20,15,115);
+    background: linear-gradient(197deg, rgba(20,15,115,1) 0%, rgba(9,9,51,1) 100%);
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.howEnter h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-top: 60px;
+}
+.howEnter p {
+    font-size: 1.3em;
+}
+.howEnterSteps {
+    width: 100%;
+    height: 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.howEnterSteps p {
+    margin-top: 0;
+    font-size: 15px;
+    text-align: start;
+    padding-left: 20px;
+}
+.module-border-wrap {
+    width: 23%;
+    height: 180px;
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+    border-radius: 20px;
+  }
+.card {
+    width: 100%;
+    height: 100%;
+    min-width: fit-content;
+    border: solid;
+    border-radius: 20px;
+    background: rgb(20,15,115);
+    background: linear-gradient(197deg, rgba(20,15,115,1) 0%, rgba(9,9,51,1) 100%);
+    border: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.numerone {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, red, purple);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+.step {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+}
+.howEnterStepsTop {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding:10px 15px;
+}
+.center {margin: auto;}
+
+/** TERZA SEZIONE */
+
+.courses {
+    background: rgb(20,15,115);
+    background: linear-gradient(197deg, rgba(20,15,115,1) 0%, rgba(9,9,51,1) 100%);
+    padding-left: 100px;
+    padding-right: 100px;   
+}
+.coursesText {
+    height: fit-content;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.coursesText h1 {
+    font-size: 2.4em;
+    margin: 0;
+    padding-top: 60px;
+}
+.coursesText p {
+    margin: 0;
+    font-size: 1.3em;
+}
+.coursesBlock {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vh;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.block {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+.block h2 {
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.block p {
+    font-weight: bold;
+}
+.block button {
+    width: fit-content;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding:15px 20px;
+    margin: 20px;
+}
+.block span{
+    color: purple;
+    font-weight: bold;
+}
+
+/** QUARTA SEZIONE */
+
+.form {
+    background-color: rgb(10, 10, 95);
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.formText {
+    width: 45%;
+    height: 300px;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.formText h1 {
+    font-size: 2.3em;
+    margin-top: -10px;
+}
+.formText {
+    font-size: 1.1em;
+}
+.formContact {
+    width: 40%;
+    padding-bottom: 80px;  
+}
+.contacts {
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+#contact {
+    padding: 2px 35px ;
+    border-radius: 2px;
+    border: none;
+}
+.red {
+    color: red;
+}
+.multiple {
+    color: white;
+    font-size: 0.8em;
+    line-height: 30px;
+}
+#fascia {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+#selection {
+    width: 90%;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+}
+.invia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+
+/** QUINTA SEZIONE */
+
+.aziende {
+    background-color:rgb(21, 21, 56);
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.aziende h1 {
+    font-size: 2.7em;
+    margin: 0;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    color: white;
+}
+.carosello {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+/** SESTA SEZIONE */
+.ambassador {
+    height: 400px;
+    background: rgb(20,15,115);
+    background: linear-gradient(197deg, rgba(20,15,115,1) 0%, rgba(9,9,51,1) 100%);
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ambassadorText {
+    width: 30%;
+    height: 100%;
+}
+.ambassadorText h1 {
+    font-size: 2.2em;
+    color: white;
+    padding-top: 50px;
+}
+.ambassadorText p {
+    font-size: 1.2em;
+    color: white;
+}
+.ambassadorInfo {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 30px;    
+}
+.info {
+    height: 180px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    padding-top: 50px;
+    width: 75%;
+    height: 40%;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.445);
+    display: flex;
+    align-items: center;
+}
+.infoImgUno {
+    background-image: url(asset/user1.png);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.infoText {
+    width: fit-content;
+    line-height: 0.9;
+    padding-left: 8px;
+}
+.infoText p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+.infoText h5 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+.infoIcon {
+    height: 20px;
+    width: 20px;
+    background-image: url(asset/ln.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.infoImgDue {
+    background-image: url(asset/user2.png);
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/** SETTIMA SEZIONE */
+.changeLife {
+    height: 400px;
+    background: rgb(63,75,230);
+    background: linear-gradient(56deg, rgba(63,75,230,1) 0%, rgba(227,31,183,1) 100%);
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+.changeLife h1 {
+    font-size: 2.9em;
+    margin: 0;
+    padding-top: 80px;
+    line-height: 1.5;
+}
+.changeLife p {
+    font-size: 1.2em;
+}
+
+/** OTTAVA SEZIONE */
+footer {
+    background: rgb(20,15,115);
+    background: linear-gradient(197deg, rgba(20,15,115,1) 0%, rgba(9,9,51,1) 100%);
+}
+.footer {
+    height: 400px;
+    padding: 90px;
+    display: flex;
+}
+.foot1 {
+    width: 37%;
+    padding: 10px;
+}
+.footer-logo {
+    width: 130px;
+}
+.foot2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    width: 40%;
+    height: 100%;
+}
+.column a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.foot3 {
+    padding: 10px;
+    padding-left: 20px;
+    width: 20%;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+}
+.social {
+    padding-top: 10px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.bottomBar {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+.bottomBar a {
+    text-decoration: none;
+    color: aqua;
+}
